@@ -13,7 +13,6 @@ from src.gesture_detector import (
     GESTURE_PINCH,
     GESTURE_NONE,
 )
-
 from src.portal import Portal
 
 from src.filter_engine import (
