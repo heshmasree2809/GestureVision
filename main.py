@@ -470,12 +470,10 @@ def main():
                 handedness="CONTROL"
             )
 
-        # =====================================================
         # MOVE PORTAL
         #
         # Only when unlocked.
-        # =====================================================
-
+        
         if (
             portal is not None
             and
