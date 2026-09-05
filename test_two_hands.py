@@ -6,7 +6,7 @@ from mediapipe.tasks.python import vision
 MODEL_PATH = "models/hand_landmarker.task"
 def main():
 
-    print("Starting two-hand diagnostic...")
+    print("Starting two-hand diagnostic....")
     print("Show BOTH hands to the camera.")
     print("Press Q to quit.")
     print()
@@ -37,9 +37,9 @@ def main():
         )
     )
 
-    # ---------------------------------------------------------
+    # ------------------------------------------------------
     # Camera
-    # ---------------------------------------------------------
+    # ------------------------------------------------------
 
     camera = cv2.VideoCapture(0)
 
