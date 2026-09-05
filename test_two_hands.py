@@ -3,11 +3,7 @@ import mediapipe as mp
 
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
-
-
 MODEL_PATH = "models/hand_landmarker.task"
-
-
 def main():
 
     print("Starting two-hand diagnostic...")
@@ -15,9 +11,9 @@ def main():
     print("Press Q to quit.")
     print()
 
-    # ---------------------------------------------------------
+    # ------------------------------------------------------
     # MediaPipe
-    # ---------------------------------------------------------
+    # ------------------------------------------------------
 
     base_options = python.BaseOptions(
         model_asset_path=MODEL_PATH
