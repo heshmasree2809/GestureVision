@@ -261,7 +261,7 @@ def main():
 
     print()
     print()
-    print("Diagnostic finished.")
+    print("Diagnostic Finished.")
 
 
 if __name__ == "__main__":
