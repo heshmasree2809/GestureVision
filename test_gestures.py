@@ -9,10 +9,7 @@ from src.gesture_detector import (
     GESTURE_PEACE,
     GESTURE_FIST,
 )
-
-
 def main():
-
     print()
     print("==========================================")
     print("       GestureFX Gesture Test")
