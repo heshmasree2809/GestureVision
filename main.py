@@ -92,7 +92,6 @@ def distance_to_size(distance):
             distance
         )
     )
-
     normalized = (
         distance -
         MIN_HAND_DISTANCE
