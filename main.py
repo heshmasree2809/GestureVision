@@ -498,7 +498,7 @@ def main():
         # Only works while unlocked.
         # =====================================================
 
-        two_hand_size = False
+        two_hand_size=False 
 
         hand_distance = 0
 
