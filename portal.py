@@ -2,7 +2,6 @@ import cv2
 
 
 class Portal:
-
     def __init__(
         self,
         center,
