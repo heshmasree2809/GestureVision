@@ -10,7 +10,7 @@ class HandTracker:
     def __init__(
         self,
         model_path="models/hand_landmarker.task",
-        max_hands=2,
+        max_hands=4,
         detection_confidence=0.5,
         presence_confidence=0.5,
         tracking_confidence=0.5,
@@ -35,7 +35,7 @@ class HandTracker:
             )
         )
 
-        self.timestamp_ms = 0
+        self.timestamp_ms =0
 
     # =========================================================
     # DETECT HANDS
@@ -73,9 +73,7 @@ class HandTracker:
         hands = []
 
         if not result.hand_landmarks:
-
             return hands
-
         # =====================================================
         # PROCESS ALL DETECTED HANDS
         # =====================================================
