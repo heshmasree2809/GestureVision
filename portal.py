@@ -5,8 +5,8 @@ class Portal:
     def __init__(
         self,
         center,
-        width=220,
-        height=220,
+        width=230,
+        height=240,
         handedness="CONTROL"
     ):
 
