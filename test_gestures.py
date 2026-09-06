@@ -52,44 +52,30 @@ def main():
     )
 
     last_gesture = GESTURE_NONE
-
     while True:
-
         success, frame = camera.read()
-
         if not success:
-
             break
-
         frame = cv2.flip(
             frame,
             1
         )
-
         hands = tracker.detect(
             frame
         )
-
         gesture = GESTURE_NONE
-
         if hands:
-
             gesture = detect_gesture(
                 hands[0]
             )
-
         # -----------------------------------------------------
         # Only update displayed gesture when recognized
         # -----------------------------------------------------
-
         if gesture != GESTURE_NONE:
-
             last_gesture = gesture
-
         # -----------------------------------------------------
         # Draw landmarks
         # -----------------------------------------------------
-
         if hands:
 
             hand = hands[0]
