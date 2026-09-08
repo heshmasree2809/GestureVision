@@ -555,7 +555,6 @@ def main():
         # =====================================================
 
         if portal is not None:
-
             portal.draw(
                 frame
             )
