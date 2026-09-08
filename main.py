@@ -209,40 +209,30 @@ def main():
         max_hands=2,
         detection_confidence=0.5,
         presence_confidence=0.5,
-        tracking_confidence=0.5,
+       tracking_confidence=0.5,
     )
-
     # =========================================================
     # CAMERA
     # =========================================================
-
     camera = cv2.VideoCapture(0)
-
     if not camera.isOpened():
-
         print(
             "ERROR: Could not open webcam."
         )
-
         tracker.close()
-
         return
-
     camera.set(
         cv2.CAP_PROP_FRAME_WIDTH,
         CAMERA_WIDTH
     )
-
     camera.set(
         cv2.CAP_PROP_FRAME_HEIGHT,
         CAMERA_HEIGHT
     )
-
     camera.set(
         cv2.CAP_PROP_BUFFERSIZE,
         1
     )
-
     # =========================================================
     # PORTAL
     # =========================================================
