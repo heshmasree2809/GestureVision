@@ -1,9 +1,7 @@
 import cv2
 import time
 import math
-
 from src.hand_tracker import HandTracker
-
 from src.gesture_detector import (
     detect_gesture,
     GESTURE_INDEX,
@@ -14,7 +12,6 @@ from src.gesture_detector import (
     GESTURE_NONE,
 )
 from src.portal import Portal
-
 from src.filter_engine import (
     apply_portal_filter,
     FILTER_NONE,
@@ -22,8 +19,6 @@ from src.filter_engine import (
     FILTERS,
     get_next_filter,
 )
-
-
 # =============================================================
 # CAMERA
 # =============================================================
