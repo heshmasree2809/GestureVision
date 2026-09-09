@@ -15,8 +15,6 @@ class Portal:
         self.width = widthh
         self.height = heightt
 
-        self.locked = False
-
     # =========================================================
     # UPDATE
     # =========================================================
