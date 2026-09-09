@@ -11,9 +11,7 @@ from src.gesture_detector import (
 )
 def main():
     print()
-    print("==========================================")
-    print("       GestureFX Gesture Test")
-    print("==========================================")
+    print("       GestureFX Gesture Test            ")
     print()
     print("Try:")
     print("  Peace  = next filter")
