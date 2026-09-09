@@ -14,7 +14,6 @@ class Portal:
 
         self.width = widthh
         self.height = heightt
-        self.handedness = handedness
 
         self.locked = False
 
