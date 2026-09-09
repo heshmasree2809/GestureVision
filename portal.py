@@ -51,8 +51,6 @@ class Portal:
 
         x1 = cx - half_width
         y1 = cy - half_height
-
-        x2 = cx + half_width
         y2 = cy + half_height
 
         return (
