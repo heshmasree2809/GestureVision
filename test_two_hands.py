@@ -9,8 +9,6 @@ def main():
     print("Starting two-hand diagnostic....")
     print("Show BOTH hands to the camera.")
     print("Press Q to quit.")
-    print()
-
     # ------------------------------------------------------
     # MediaPipe
     # ------------------------------------------------------
