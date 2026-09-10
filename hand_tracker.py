@@ -35,7 +35,7 @@ class HandTracker:
             )
         )
 
-        self.timestamp_ms =0
+        self.timestamp_ms =1
 
     # =========================================================
     # DETECT HANDS
