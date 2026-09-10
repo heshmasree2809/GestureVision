@@ -222,7 +222,6 @@ class HandTracker:
                     "pinky_tip": pinky_tip,
                 }
             )
-
         # =====================================================
         # IMPORTANT
         #
@@ -234,30 +233,19 @@ class HandTracker:
         # LEFT side of screen  = LEFT
         # RIGHT side of screen = RIGHT
         # =====================================================
-
         if len(hands) == 2:
-
             hands.sort(
                 key=lambda hand:
                 hand["center"][0]
             )
-
             hands[0]["screen_side"] = "LEFT"
-
             hands[1]["screen_side"] = "RIGHT"
-
         else:
-
             for hand in hands:
-
                 x = hand["center"][0]
-
                 if x < width / 2:
-
                     hand["screen_side"] = "LEFT"
-
                 else:
-
                     hand["screen_side"] = "RIGHT"
 
         return hands
