@@ -105,7 +105,6 @@ class HandTracker:
                         x
                     )
                 )
-
                 y = max(
                     0,
                     min(
@@ -113,7 +112,6 @@ class HandTracker:
                         y
                     )
                 )
-
                 pixel_landmarks.append(
                     (x, y)
                 )
@@ -140,7 +138,7 @@ class HandTracker:
 
             palm_points = [
                 pixel_landmarks[0],
-                pixel_landmarks[5],
+                pixel_landmarks[4],
                 pixel_landmarks[9],
                 pixel_landmarks[13],
                 pixel_landmarks[17],
