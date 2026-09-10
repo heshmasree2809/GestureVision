@@ -105,7 +105,7 @@ def neon_filter(
     edges = cv2.GaussianBlur(
         edges,
         (3, 3),
-        0
+        1
     )
 
     neon = np.zeros_like(
