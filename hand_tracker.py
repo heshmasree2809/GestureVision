@@ -13,7 +13,7 @@ class HandTracker:
         max_hands=4,
         detection_confidence=0.5,
         presence_confidence=0.5,
-        tracking_confidence=0.5,
+        tracking_confidence=1.0,
     ):
 
         base_options = python.BaseOptions(
