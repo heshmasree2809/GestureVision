@@ -37,9 +37,6 @@ class HandTracker:
 
         self.timestamp_ms =1
 
-    # =========================================================
-    # DETECT HANDS
-    # =========================================================
 
     def detect(self, frame):
 
@@ -81,40 +78,17 @@ class HandTracker:
         for hand_index, landmarks in enumerate(
             result.hand_landmarks
         ):
-
             # =================================================
             # PIXEL LANDMARKS
             # =================================================
 
             pixel_landmarks = []
-
             for landmark in landmarks:
-
-                x = int(
-                    landmark.x * width
-                )
-
-                y = int(
-                    landmark.y * height
-                )
-
-                x = max(
-                    0,
-                    min(
-                        width - 1,
-                        x
-                    )
-                )
-                y = max(
-                    0,
-                    min(
-                        height - 1,
-                        y
-                    )
-                )
-                pixel_landmarks.append(
-                    (x, y)
-                )
+                x = int(landmark.x * width)
+                y = int(landmark.y * height)
+                x = max(0,min(width - 1,x))
+                y = max(0,min(height - 1,y))
+                pixel_landmarks.append((x, y))
 
             # =================================================
             # IMPORTANT LANDMARKS
