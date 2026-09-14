@@ -1,6 +1,5 @@
 import cv2
 import mediapipe as mp
-
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
 MODEL_PATH = "models/hand_landmarker.task"
@@ -10,7 +9,6 @@ def main():
     # ------------------------------------------------------
     # MediaPipe
     # ------------------------------------------------------
-
     base_options = python.BaseOptions(
         model_asset_path=MODEL_PATH
     )
