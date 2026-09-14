@@ -1,17 +1,13 @@
 import cv2
 import numpy as np
 
-
 # =============================================================
 # FILTER NAMES
 # =============================================================
 
 FILTER_NONE = "NONE"
-
 FILTER_THERMAL = "THERMAL"
-
 FILTER_NEON = "NEON"
-
 FILTER_NIGHT_VISION = "NIGHT VISION"
 
 FILTER_XRAY = "XRAY"
