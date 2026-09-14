@@ -26,16 +26,9 @@ def main():
         print("Could not open camera.")
         return
     camera.set(cv2.CAP_PROP_FRAME_WIDTH,640)
-
-    camera.set(
-        cv2.CAP_PROP_FRAME_HEIGHT,
-        480
-    )
-
+    camera.set(cv2.CAP_PROP_FRAME_HEIGHT,480)
     timestamp = 0
-
     while True:
-
         success, frame = camera.read()
 
         if not success:
