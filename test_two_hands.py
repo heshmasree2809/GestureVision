@@ -17,27 +17,15 @@ def main():
         min_hand_presence_confidence=0.3,
         min_tracking_confidence=0.3,
     )
-    detector = (
-        vision.HandLandmarker.create_from_options(
-            options
-        )
-    )
-
+    detector = (vision.HandLandmarker.create_from_options(options))
     # ------------------------------------------------------
     # Camera
     # ------------------------------------------------------
-
     camera = cv2.VideoCapture(0)
-
     if not camera.isOpened():
-
         print("Could not open camera.")
         return
-
-    camera.set(
-        cv2.CAP_PROP_FRAME_WIDTH,
-        640
-    )
+    camera.set(cv2.CAP_PROP_FRAME_WIDTH,640)
 
     camera.set(
         cv2.CAP_PROP_FRAME_HEIGHT,
