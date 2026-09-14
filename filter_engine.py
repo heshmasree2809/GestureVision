@@ -13,10 +13,7 @@ FILTER_NIGHT_VISION = "NIGHT VISION"
 FILTER_XRAY = "XRAY"
 
 FILTER_CYBERPUNK = "CYBERPUNK"
-
 FILTER_SPIDERVERSE = "SPIDER-VERSE"
-
-
 # =============================================================
 # FILTER LIST
 # =============================================================
