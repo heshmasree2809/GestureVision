@@ -19,18 +19,10 @@ FILTERS = [FILTER_THERMAL,FILTER_NEON,FILTER_NIGHT_VISION,FILTER_XRAY,FILTER_CYB
 # =============================================================
 # NEXT FILTER
 # =============================================================
-def get_next_filter(
-    current_filter
-):
-
+def get_next_filter(current_filter):
     if current_filter not in FILTERS:
-
         return FILTERS[0]
-
-    index = FILTERS.index(
-        current_filter
-    )
-
+    index = FILTERS.index(current_filter)
     next_index = (
         index + 1
     ) % len(FILTERS)
