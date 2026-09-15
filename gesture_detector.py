@@ -30,13 +30,10 @@ def distance(point_a, point_b):
 # =============================================================
 
 def get_palm_size(landmarks):
-
     return distance(
         landmarks[0],   # wrist
         landmarks[9]    # middle MCP
     )
-
-
 # =============================================================
 # FINGER EXTENDED
 # =============================================================
