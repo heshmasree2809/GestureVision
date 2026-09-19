@@ -5,9 +5,7 @@ from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
 
 class HandTracker:
-
-    def __init__(
-        self,
+    def __init__(self,
         model_path="models/hand_landmarker.task",
         max_hands=4,
         detection_confidence=0.5,
