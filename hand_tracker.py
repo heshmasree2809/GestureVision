@@ -120,11 +120,7 @@ class HandTracker:
                 len(palm_points)
             )
 
-            center_y = int(
-                sum(
-                    point[1]
-                    for point in palm_points
-                )
+            center_y = int(sum(point[1] for point in palm_points)
                 /
                 len(palm_points)
             )
