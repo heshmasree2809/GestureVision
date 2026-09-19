@@ -62,12 +62,11 @@ class HandTracker:
         )
 
         hands = []
-
         if not result.hand_landmarks:
             return hands
-        # =====================================================
+        # ===================================================
         # PROCESS ALL DETECTED HANDS
-        # =====================================================
+        # ===================================================
 
         for hand_index, landmarks in enumerate(
             result.hand_landmarks
