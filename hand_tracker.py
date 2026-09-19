@@ -33,10 +33,7 @@ class HandTracker:
         )
 
         self.timestamp_ms =1
-
-
     def detect(self, frame):
-
         height, width = frame.shape[:2]
 
         # -----------------------------------------------------
