@@ -11,9 +11,7 @@ GESTURE_PINCH = "PINCH"
 # ==========================================================
 # DISTANCE
 # ==========================================================
-
 def distance(point_a, point_b):
-
     dx = point_a[0] - point_b[0]
     dy = point_a[1] - point_b[1]
 
