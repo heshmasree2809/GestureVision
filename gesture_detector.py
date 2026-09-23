@@ -19,13 +19,11 @@ def distance(point_a, point_b):
         dx * dx +
         dy * dy
     )
-
-
-# =============================================================
+# ==========================================================
 # PALM SIZE
 #
 # We use palm size to make pinch detection scale-independent.
-# =============================================================
+# ==========================================================
 
 def get_palm_size(landmarks):
     return distance(
