@@ -253,21 +253,8 @@ def is_index(landmarks):
         10,
         9
     )
-
-    ring_folded = finger_folded(
-        landmarks,
-        16,
-        14,
-        13
-    )
-
-    pinky_folded = finger_folded(
-        landmarks,
-        20,
-        18,
-        17
-    )
-
+    ring_folded = finger_folded(landmarks,16,14,13)
+    pinky_folded = finger_folded(landmarks,20,18,17)
     return (
         index_extended
         and
