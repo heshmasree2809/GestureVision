@@ -40,33 +40,26 @@ def finger_extended(
     pip,
     mcp
 ):
-
     tip_distance = distance(
         landmarks[mcp],
         landmarks[tip]
     )
-
     pip_distance = distance(
         landmarks[mcp],
         landmarks[pip]
     )
-
     return tip_distance > (
         pip_distance * 1.25
     )
-
-
-# =============================================================
+# ==========================================================
 # FINGER FOLDED
-# =============================================================
-
+# ==========================================================
 def finger_folded(
     landmarks,
     tip,
     pip,
     mcp
 ):
-
     return not finger_extended(
         landmarks,
         tip,
