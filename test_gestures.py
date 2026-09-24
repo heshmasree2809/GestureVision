@@ -29,12 +29,7 @@ def main():
         tracker.close()
 
         return
-
-    camera.set(
-        cv2.CAP_PROP_FRAME_WIDTH,
-        640
-    )
-
+    camera.set(cv2.CAP_PROP_FRAME_WIDTH,640)
     camera.set(
         cv2.CAP_PROP_FRAME_HEIGHT,
         480
