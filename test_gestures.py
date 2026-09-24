@@ -137,10 +137,7 @@ def main():
             cv2.LINE_AA
         )
 
-        cv2.imshow(
-            "GestureFX - Gesture Test",
-            frame
-        )
+        cv2.imshow("GestureFX - Gesture Test",frame)
 
         if (
             cv2.waitKey(1)
