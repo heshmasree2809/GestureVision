@@ -12,7 +12,6 @@ def main():
     print()
     print("Press Q to quit.")
     print()
-
     tracker = HandTracker(
         model_path="models/hand_landmarker.task",
         max_hands=2,
