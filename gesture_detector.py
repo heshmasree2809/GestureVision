@@ -15,10 +15,7 @@ def distance(point_a, point_b):
     dx = point_a[0] - point_b[0]
     dy = point_a[1] - point_b[1]
 
-    return math.sqrt(
-        dx * dx +
-        dy * dy
-    )
+    return math.sqrt(dx * dx + dy * dy)
 # ==========================================================
 # PALM SIZE
 #
