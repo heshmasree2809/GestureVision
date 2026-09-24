@@ -1,7 +1,6 @@
 import cv2
 from src.hand_tracker import HandTracker
-from src.gesture_detector import (detect_gesture,GESTURE_NONE,GESTURE_INDEX,GESTURE_PEACE,GESTURE_FIST,
-)
+from src.gesture_detector import (detect_gesture,GESTURE_NONE,GESTURE_INDEX,GESTURE_PEACE,GESTURE_FIST,)
 def main():
     print()
     print("       GestureFX Gesture Test            ")
