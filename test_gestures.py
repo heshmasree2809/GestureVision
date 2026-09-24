@@ -1,7 +1,5 @@
 import cv2
-
 from src.hand_tracker import HandTracker
-
 from src.gesture_detector import (
     detect_gesture,
     GESTURE_NONE,
