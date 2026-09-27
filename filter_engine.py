@@ -46,7 +46,6 @@ def thermal_filter(
 # =============================================================
 # NEON
 # =============================================================
-
 def neon_filter(image):
     gray = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
     edges = cv2.Canny(gray,80,160)
