@@ -26,8 +26,6 @@ def get_next_filter(current_filter):
     ) % len(FILTERS)
 
     return FILTERS[next_index]
-
-
 # =============================================================
 # THERMAL
 # =============================================================
