@@ -16,7 +16,7 @@ FILTER_SPIDERVERSE = "SPIDER-VERSE"
 FILTERS = [FILTER_THERMAL,FILTER_NEON,FILTER_NIGHT_VISION,FILTER_XRAY,FILTER_CYBERPUNK,FILTER_SPIDERVERSE,]
 # ==========================================================
 # NEXT FILTER
-# ==========================================================
+# =========================================================
 def get_next_filter(current_filter):
     if current_filter not in FILTERS:
         return FILTERS[0]
