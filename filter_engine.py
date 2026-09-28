@@ -10,9 +10,9 @@ FILTER_NIGHT_VISION = "NIGHT VISION"
 FILTER_XRAY = "XRAY"
 FILTER_CYBERPUNK = "CYBERPUNK"
 FILTER_SPIDERVERSE = "SPIDER-VERSE"
-# ==========================================================
+# ========================================================
 # FILTER LIST
-# ==========================================================
+# ========================================================
 FILTERS = [FILTER_THERMAL,FILTER_NEON,FILTER_NIGHT_VISION,FILTER_XRAY,FILTER_CYBERPUNK,FILTER_SPIDERVERSE,]
 # ==========================================================
 # NEXT FILTER
