@@ -55,10 +55,7 @@ def neon_filter(image):
         (3, 3),
         1
     )
-
-    neon = np.zeros_like(
-        image
-    )
+    neon = np.zeros_like(image)
 
     neon[:, :, 1] = edges
     neon[:, :, 2] = edges
