@@ -41,11 +41,7 @@ def neon_filter(image):
     gray = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
     edges = cv2.Canny(gray,80,160)
     edges = cv2.dilate(edges,None,iterations=1)
-    edges = cv2.GaussianBlur(
-        edges,
-        (3, 3),
-        1
-    )
+    edges = cv2.GaussianBlur(edges,(3, 3),1)
     neon = np.zeros_like(image)
 
     neon[:, :, 1] = edges
