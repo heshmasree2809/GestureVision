@@ -33,10 +33,7 @@ def thermal_filter(image):
 
     gray = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 
-    return cv2.applyColorMap(
-        gray,
-        cv2.COLORMAP_INFERNO
-    )
+    return cv2.applyColorMap(gray,cv2.COLORMAP_INFERNO)
 # ========================================================
 # NEON
 # ========================================================
