@@ -113,9 +113,7 @@ def cyberpunk_filter(
         image
     )
 
-    result = np.zeros_like(
-        image
-    )
+    result = np.zeros_like(image)
 
     result[:, :, 0] = cv2.add(
         b,
