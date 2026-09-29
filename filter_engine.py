@@ -29,10 +29,7 @@ def get_next_filter(current_filter):
 # ========================================================
 # THERMAL
 # ========================================================
-
-def thermal_filter(
-    image
-):
+def thermal_filter(image):
 
     gray = cv2.cvtColor(
         image,
