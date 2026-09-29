@@ -51,13 +51,7 @@ def neon_filter(image):
     neon[:, :, 1] = edges
     neon[:, :, 2] = edges
 
-    return cv2.addWeighted(
-        image,
-        0.35,
-        neon,
-        1.2,
-        0
-    )
+    return cv2.addWeighted(image,0.35,neon,1.2,0)
 
 
 # ===========================================================
