@@ -31,10 +31,7 @@ def get_next_filter(current_filter):
 # ========================================================
 def thermal_filter(image):
 
-    gray = cv2.cvtColor(
-        image,
-        cv2.COLOR_BGR2GRAY
-    )
+    gray = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 
     return cv2.applyColorMap(
         gray,
